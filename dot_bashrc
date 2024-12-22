@@ -1,0 +1,17 @@
+export MSYS_NO_PATHCONV=1
+
+# Remove the do alias so that the bash for-loop syntax is working again
+alias do='echo do me'
+unalias do
+
+# Source other dotfiles
+test -f ~/.bash_aliases && . ~/.bash_aliases
+test -f ~/.profile && . ~/.profile
+test -f ~/.bash_functions && . ~/.bash_functions
+
+# Create the do-alias at the end because it overwrites the for-loop syntax's do expression
+alias do='./do'
+
+unset TERM
+
+

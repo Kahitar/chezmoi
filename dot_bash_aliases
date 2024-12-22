@@ -1,0 +1,24 @@
+# System
+alias do='./do'
+alias dev='cd /c/dev'
+alias ebrc='nvim ~/.bashrc'
+alias sbrc='source ~/.bashrc'
+
+# Python
+alias activate='source env/Scripts/activate'
+
+# Nvim
+alias nv='nvim'
+alias nvcfg='cd ~/appdata/local/nvim'
+alias rmshada='rm ~/AppData/Local/nvim-data/shada/main.shada'
+
+# Lazygit
+alias lg='lazygit'
+alias lgcfg='cd ~/appdata/roaming/lazygit'
+
+# Configs
+alias tcfg='cd ~/appdata/local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/'
+
+# Programs
+alias lam='cd /c/dev/LAM-tools/'
+alias apps='cd /c/dev/apps'
